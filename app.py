@@ -4,6 +4,8 @@ from logic import display_tabs, safety_measures
 import pickle
 import altair as alt
 import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+
 
 
 # Page layout
