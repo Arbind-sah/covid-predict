@@ -76,7 +76,6 @@ if tabs == "Home":
 
             # Data visualization
 
-            # bar chart
             # Bar chart for features
             feature_counts = np.array(input_data).flatten()
             feature_names = [feature.replace("_", " ") for feature in features]
