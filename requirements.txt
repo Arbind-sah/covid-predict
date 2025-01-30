@@ -3,3 +3,4 @@ numpy
 altair
 pandas
 pickle-mixin
+scikit-learn
