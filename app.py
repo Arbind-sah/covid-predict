@@ -73,6 +73,10 @@ if tabs == "Home":
                 f"{'You are suffering from COVID-19 😷. Please consult a doctor immediately' if prediction[0] == 1 else 'You are not suffering from COVID-19 😊. Stay safe and healthy'}"
             )
 
+            st.write("")
+            st.write("")
+            st.write("")
+
             # Data visualization
 
             # Bar chart for features
