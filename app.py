@@ -70,9 +70,6 @@ if tabs == "Home":
             input_data = np.array(input_data).reshape(1, -1)
             prediction = model.predict(input_data)
             st.write(
-                f"{'You are suffering from COVID-19' if prediction[0] == 1 else 'You are not suffering from COVID-19'}"
-            )
-            st.write(
                 f"{'You are suffering from COVID-19 😷. Please consult a doctor immediately' if prediction[0] == 1 else 'You are not suffering from COVID-19 😊. Stay safe and healthy'}"
             )
 
